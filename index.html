@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="about">
+        <div class="about__gallery">
+            <h2 class="gallery__title">Портфолио</h2>
+            <div class="gallery__main-photo">
+                <img src="./images/gallery/1.avif" alt="#">
+            </div>
+            <div class="gallery__slider">
+                <img data-clicked="true" src="./images/arrow-left-black.svg" alt="#" class="slider__button slider__button_left">
+                <div class="slider__container">
+                    <div class="container__item">
+                        <div class="item__container">
+                            <img class="item__img selected" src="./images/gallery/1.avif" alt="#">
+                        </div>
+                        <div class="item__container">
+                            <img class="item__img" src="./images/gallery/2.avif" alt="#">
+                        </div>
+                        <div class="item__container">
+                            <img class="item__img" src="./images/gallery/3.avif" alt="#">
+                        </div>
+                        <div class="item__container">
+                            <img class="item__img" src="./images/gallery/4.avif" alt="#">
+                        </div>
+                    </div>
+                </div>
+                <img data-clicked="false" src="./images/arrow-right-black.svg" alt="#" class="slider__button slider__button_right">
+            </div>
+        </div>
+        <div class="about__description">
+            <p class="description__name">Василий Викторович Ленточкин</p>
+            <p class="description__job">Директор по развитию</p>
+            <p class="description__info">Тут что-то написано про меня (пока у меня нет структуры в голове). <br> Регалии, достижения, компетенции</p>
+        </div>
+    </div>
+    <div class="plans">
+        <section class="plans__item">
+            <h2 class="title">Мой путь</h2>
+            <ol class="list">
+                <li class="list__item">У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                <li class="list__item">Складской учет не был синхронизирован с системой и велся в ручном режиме на бумаге.</li>
+                <li class="list__item">Установленное оборудование устарело, требовало проверки и возможной замены.</li>
+            </ol>
+        </section>
+        <section class="plans__item">
+            <h2 class="title">Успешные проекты</h2>
+            <ol class="list">
+                <li class="list__item">У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                <li class="list__item">Складской учет не был синхронизирован с системой и велся в ручном режиме на бумаге.</li>
+                <li class="list__item">Установленное оборудование устарело, требовало проверки и возможной замены.</li>
+            </ol>
+        </section>
+        <section class="plans__item">
+            <h2 class="title title_orange">Планы и амбиции</h2>
+            <ol class="list">
+                <li class="list__item">У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                <li class="list__item">Складской учет не был синхронизирован с системой и велся в ручном режиме на бумаге.</li>
+                <li class="list__item">Установленное оборудование устарело, требовало проверки и возможной замены.</li>
+            </ol>
+        </section>
+        <section class="plans__item">
+            <h2 class="title">Награды</h2>
+            <div class="plans__slider">
+                <div class="slider__wrapper">
+                    <picture class="wrapper__img">
+                        <source srcset="./images/awards/1.avif" type="image/avif">
+                        <source srcset="./images/awards/1.webp" type="image/webp">
+                        <img src="./images/awards/1.png" alt="#">
+                    </picture>
+                    <picture class="wrapper__img">
+                        <source srcset="./images/awards/2.avif" type="image/avif">
+                        <source srcset="./images/awards/2.webp" type="image/webp">
+                        <img src="./images/awards/2.png" alt="#">
+                    </picture>
+                    <picture class="wrapper__img wrapper__img_small">
+                        <source srcset="./images/awards/3.avif" type="image/avif">
+                        <source srcset="./images/awards/3.webp" type="image/webp">
+                        <img src="./images/awards/3.png" alt="#">
+                    </picture>
+                </div>
+            </div>
+            <div class="slider__options">
+                <img data-clicked="true" id="slider__button_left" src="./images/arrow-left-white.svg" alt="#" class="slider__button">
+                <img data-clicked="false" id="slider__button_right" src="./images/arrow-right-white.svg" alt="#" class="slider__button">
+            </div>
+        </section>
+    </div>
+    <div class="links">
+        <ul class="links__item">
+            <li class="link">
+                <a href="#">
+                    <img src="./images/whatsapp.svg" alt="#" class="link__image">
+                </a>
+            </li>
+            <li class="link">
+                <a href="#">
+                    <img src="./images/vk.svg" alt="#" class="link__image">
+                </a>
+            </li>
+            <li class="link">
+                <a href="#">
+                    <img src="./images/telegram.svg" alt="#" class="link__image">
+                </a>
+            </li>
+            <li class="link">
+                <a href="#">
+                    <img src="./images/mail.svg" alt="#" class="link__image">
+                </a>
+            </li>
+        </ul>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
